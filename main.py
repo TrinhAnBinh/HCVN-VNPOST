@@ -25,5 +25,5 @@ async def create_item(item: Item):
     new_data = {
         "Data" : data_dict['ItemCode']
     }
-    send_request(new_data)
+    # send_request(new_data)
     return item
